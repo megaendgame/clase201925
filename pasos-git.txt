@@ -1,0 +1,31 @@
+…or create a new repository on the command line
+
+echo "# clase201925" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/megaendgame/clase201925.git
+git push -u origin master
+…or push an existing repository from the command line
+
+git remote add origin https://github.com/megaendgame/clase201925.git
+git push -u origin master
+…or import code from another repository
+You can initialize this repository with code from a Subversion, Mercurial, or TFS project.
+Import code
+
+//crear carpeta
+
+mkdir clase 201925
+
+//ingresamos a la carpeta
+cd clase201925
+
+// seleccinamos git bach here
+shift + boton derecho del mouse
+
+//inicializamos 
+git init
+
+//enazamos
+git remote add origin https://github.com/tata-duoc2019/Clase20190925.git
